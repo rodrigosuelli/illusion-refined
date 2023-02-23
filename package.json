@@ -1,49 +1,45 @@
 {
-	"name": "illusion",
-	"displayName": "Illusion",
-	"publisher": "rwietter",
-	"version": "1.0.0",
-	"description": "A dark theme based in Dracula Official theme",
-	"maintainers": [
-    "Maurício Witter <rwietter@gmail.com>"
+  "name": "illusion-refined",
+  "displayName": "Illusion Refined",
+  "publisher": "rodrigosuelli",
+  "version": "1.0.0",
+  "description": "A dark theme based in Dracula Official theme",
+  "maintainers": [
+    "Rodrigo Suélli <rodrigosuelli@gmail.com>"
   ],
-	"engines": {
-		"vscode": "^1.47.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"repository": {
-    "type": "git",
-    "url": "https://github.com/rwietter/illusion-vscode-theme.git"
+  "engines": {
+    "vscode": "^1.47.0"
   },
-	"icon": "icon.png",
-	"contributes": {
-		"themes": [
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigosuelli/illusion-refined.git"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
       {
-				"label": "Illusion",
-				"uiTheme": "vs-dark",
-				"path": "./themes/illusion.json"
-			},
-			{
-				"label": "Illusion Bordered",
-				"uiTheme": "vs-dark",
-				"path": "./themes/illusion_bordered.json"
-			}
-		]
-	},
-	"scripts": {
-		"package": "vsce package -o illusion.vsix",
-		"vsce-publish": "vsce publish"
-	},
-	"keywords": [
-		"Theme",
-		"Dark Theme",
-		"Dracula Based",
-		"Illusion",
-		"Purple Theme"
-	],
-	"galleryBanner": {
+        "label": "Illusion Refined",
+        "uiTheme": "vs-dark",
+        "path": "./themes/illusion.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package -o illusion-refined.vsix",
+    "vsce-publish": "vsce publish"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Dracula Based",
+    "Illusion",
+    "Illusion Refined",
+    "Purple Theme"
+  ],
+  "galleryBanner": {
     "color": "#1E1D22",
     "theme": "dark"
   }
